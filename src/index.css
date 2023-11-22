@@ -1,0 +1,45 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  background-image: url(assets/bg.jpg);
+  max-height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100vw;
+  background-color: rgba(227, 198, 255, 0.859);
+  padding: 15px;
+}
+
+main{
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+button, input, .my-style {
+  border-radius: 5px;
+  border: solid 1px lightgrey;
+  padding: 10px;
+}
+
+.my-list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+}
